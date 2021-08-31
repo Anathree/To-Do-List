@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+.sec4{
+    float:left;
+    height: 800px;
+    width: 50%;
+    background: linear-gradient(rgb(216, 154, 231),rgba(1, 1, 1, 0.01)), url('flower.jpg');
+    background-size: cover;
+    color:#3a3636;
+    text-align: center;
+}
+#goallist{
+    font-size: 25px;
+    padding: 10% 5%;
+       
+}
+#goallist li{
+    cursor: pointer; 
+    padding-bottom: 0%;
+    list-style-type: none;
+    
+    text-transform: capitalize;
+}
+#goallist li div{
+    
+    text-align: center;
+    
+    position: relative;
+}
+#goallist li i{
+    right:0;
+    
+    position: absolute;
+   
+}
+#goalist li.checked{
+    text-decoration: line-through;
+}
+.sec5{
+    float:left;
+    height: 800px;
+    width: 50%;
+    text-align: center;   
+}
+.sec5 h2{
+    margin-top: 250px;
+    color:#666666;
+    font-size: 30px;
+}
+.sec4 h2{
+    margin-top: 100px;
+}
+h3{
+    color: #666666;
+    font-size: 25px;
+}
+p{
+    color:#3a3636;
+    font-size: 16px;
+}
+input{
+    border: 1px solid rgb(216, 154, 231);
+    box-sizing: border-box;
+    width:70%;
+    height: 50px;
+    font-size: 25px;
+    color:#666666;
+}
+.addbtn{
+    background-color:rgb(216, 154, 231) ;
+    box-sizing: border-box;
+    color:white;
+    padding:11px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.addbtn:hover{
+background-color: rgb(212, 137, 231);
+}
